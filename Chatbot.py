@@ -21,7 +21,7 @@ chat_history=[
 ]
 
 while True:
-    user_input =input("User input:")
+    user_input =input("User input must be given here:")
     chat_history.append(HumanMessage(content=user_input))
     if user_input in ("exit","bye","tata"):
         break
